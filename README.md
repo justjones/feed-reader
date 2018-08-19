@@ -25,3 +25,6 @@ To run the this test locally
     Install http-server by npm install -g http-server
     Then run http-server in terminal inside the root of the cloned repo.
     Go to the URL http://localhost:8080/ in browser.
+
+
+note: Research into how to code for jasmine testing led me to many sites for expamples. Some code I used came from these sources. The sources include Sitepoint, Udacity, Udemy, and GitHub repositories. 
