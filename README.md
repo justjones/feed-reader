@@ -7,7 +7,7 @@ Reference
 
 How to run this test
 
-   I hosted this test on my servers at HostGator visit here -  [Feed Reader -] 9http://justjonesweb.com/feedreader/index.html#) 
+   I hosted this test on my servers at HostGator visit here -  [Feed Reader -](http://justjonesweb.com/feedreader/index.html#) 
 
 To run the this test locally
 
@@ -21,7 +21,7 @@ To run the this test locally
 2. Using Terminal and Node.js:
 
     Pre-requisite : Install node.js, npm, and git
-    Clone this repo. Open your terminal and run git clone https://github.com/justjones/feedreader.git
+    Clone this repo. Open your terminal and run git clone https://github.com/justjones/feed-reader
     Install http-server by npm install -g http-server
     Then run http-server in terminal inside the root of the cloned repo.
     Go to the URL http://localhost:8080/ in browser.
