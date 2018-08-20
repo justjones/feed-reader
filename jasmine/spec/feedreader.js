@@ -86,7 +86,7 @@ $(function() {
             });
         });
 
-        /* Tnew test suite named "New Feed Selection" */
+        /*new test suite named "New Feed Selection" */
         it("has at least 1 entry after loadFeed function is called", function(done) {
             var numEntries = document.querySelector(".feed").getElementsByClassName("entry").length;
             expect(numEntries).toBeGreaterThan(0);
@@ -102,5 +102,28 @@ $(function() {
             done();
         });
     });
+    //test suite for new feed selection
+    describe("New Feed Selection", function() {
 
+        //make sure no duplicate setup. intitial loaded feed setup
+        var initFeedSelection;
+
+        beforeEach(function(done) {
+            loadFeed(0, function() {
+                initFeedSelection = document.querySelector(".feed").innerHTML;
+
+                loadFeed(1, function() {
+                    done();
+                });
+            });
+        });
+        
+        //new feed is loaded with the loadFeed function, content should change
+        it("Changes its loaded content", function(done) {
+            var newFeedSelection = document.querySelector(".feed").innerHTML;
+            expect(initFeedSelection).not.toBe(newFeedSelection);
+            done();
+        });
+
+    });
 }());
