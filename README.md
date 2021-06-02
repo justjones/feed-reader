@@ -7,7 +7,7 @@ Reference
 
 How to run this test
 
-   I hosted this test on my servers at HostGator visit here -  [Feed Reader -](http://justjonesweb.com/feedreader/index.html#) 
+  
 
 To run the this test locally
 
